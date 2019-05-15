@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "main": "index.js",
   "dependencies": {
-    "fusion-cli": "^1.18.3",
+    "fusion-cli": "^1.19.0-0",
     "fusion-core": "^1.10.6",
     "fusion-plugin-react-helmet-async": "^1.0.2",
     "fusion-plugin-react-router": "^1.5.4",
@@ -20,8 +20,8 @@
     "dev": "fusion dev",
     "lint": "eslint .",
     "test": "fusion test",
-    "build": "fusion build",
-    "build-production": "fusion build --production",
+    "build": "fusion build --serverless",
+    "build-production": "fusion build --production --serverless",
     "start": "fusion start"
   },
   "devDependencies": {
