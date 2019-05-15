@@ -5,6 +5,9 @@
 //   // env: 'production', // optional
 // });
 
+const fs = require('fs');
+
 module.exports = function(req, res) {
-  res.end('OK');
+  const dirs = fs.readdirSync('.fusion/dist/production/server');
+  res.end('DIRS' + JSON.stringify(dirs));
 }
