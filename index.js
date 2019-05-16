@@ -8,9 +8,6 @@
 const fs = require('fs');
 
 module.exports = function(req, res) {
-  console.log('CWD', fs.readdirSync(process.cwd()));
-  console.log('__DIRNAME', fs.readdirSync(__dirname));
-  // const dirs = fs.readdirSync('.fusion/dist/production/server');
-  // res.end('DIRS' + JSON.stringify(dirs));
-  res.end('OK');
+  const dirs = fs.readdirSync('.fusion/');
+  res.end('DIRS' + JSON.stringify(dirs));
 }
