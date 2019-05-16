@@ -7,7 +7,7 @@
       "config": { "maxLambdaSize": "50mb" }
     },
     {
-      "src": "package.json",
+      "src": "index.js",
       "use": "@now/static-build",
       "config": {
         "distDir": ".fusion/"
