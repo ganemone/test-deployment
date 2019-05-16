@@ -4,18 +4,8 @@
     {
       "src": "index.js",
       "use": "@now/node",
-      "config": { "maxLambdaSize": "50mb" }
-    },
-    {
-      "src": "package.json",
-      "use": "@now/static-build",
-      "config": {
-        "distDir": ".fusion/"
-      }
+      "config": { "maxLambdaSize": "50mb", "includeFiles": [".fusion/*"] }
     }
   ],
-  "routes": [
-    { "src": "/_static/*", "dest": "package.json" },
-    { "src": "/*", "dest": "index.js" }
-  ]
+  "routes": [{ "src": "/*", "dest": "index.js" }]
 }
