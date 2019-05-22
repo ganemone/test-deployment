@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "index.js",
-      "use": "@now/node",
+      "use": "git@github.com:ganemone/now-fusion.git",
       "config": {
         "maxLambdaSize": "50mb",
         "includeFiles": [".fusion/**", "src/**/*.js", ".eslintrc.js"]
