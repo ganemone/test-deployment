@@ -1,9 +1,3 @@
-// const getHandler = require('fusion-cli/serverless');
-
-// module.exports = getHandler({
-//   // dir: '.', // optional
-//   // env: 'production', // optional
-// });
 
 const fs = require('fs');
 
