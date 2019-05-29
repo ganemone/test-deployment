@@ -3496,10 +3496,10 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-fusion-cli@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/fusion-cli/-/fusion-cli-2.0.0.tgz#7f3b17da753662c346fd7481f49ab5a2a4d7472c"
-  integrity sha512-KfoDIVkJhi4Pf1mndcNwlrBVajxKLRxmCtCjJER4xuuAwu+d4QuI4ntIquX8kS1Zc1T9oNAUUuFU2IvmdEqsvA==
+fusion-cli@2.0.2:
+  version "2.0.2"
+  resolved "https://unpm.uberinternal.com/fusion-cli/-/fusion-cli-2.0.2.tgz#1e66e1453db5326fc8bc3c0d041533ead044de07"
+  integrity sha512-2AgK9J2InMKa0Xmh/AvICwl3R3S9X1Y+2G1Bt8DK1gI5dtNRPQRPt9DmNyYIjm8Y9VHT5qSQrrkad2DBp9V7pw==
   dependencies:
     "@babel/core" "^7.4.4"
     "@babel/plugin-syntax-dynamic-import" "7.2.0"
