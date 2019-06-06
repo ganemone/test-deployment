@@ -3496,10 +3496,10 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-fusion-cli@2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/fusion-cli/-/fusion-cli-2.0.2.tgz#1e66e1453db5326fc8bc3c0d041533ead044de07"
-  integrity sha512-2AgK9J2InMKa0Xmh/AvICwl3R3S9X1Y+2G1Bt8DK1gI5dtNRPQRPt9DmNyYIjm8Y9VHT5qSQrrkad2DBp9V7pw==
+fusion-cli@0.0.0-canary.fd5a750.0:
+  version "0.0.0-canary.fd5a750.0"
+  resolved "https://unpm.uberinternal.com/fusion-cli/-/fusion-cli-0.0.0-canary.fd5a750.0.tgz#370fe77eed120432ced7fcd47e4572a02569c13d"
+  integrity sha512-xhJW/7IB/9L2IH8UHmWG0sriU3bKXmF+ZtubKBDXIBmISzOasLQjXEoBh9FILHyg2Hpj0kvUCCPMDooYuOw02g==
   dependencies:
     "@babel/core" "^7.4.4"
     "@babel/plugin-syntax-dynamic-import" "7.2.0"
@@ -3549,10 +3549,10 @@ fusion-cli@2.0.2:
     webpack-hot-middleware "^2.24.3"
     winston "^3.1.0"
 
-fusion-core@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/fusion-core/-/fusion-core-2.0.0.tgz#3997e0e268c12f45d6729a7229f6d7201dcdb643"
-  integrity sha512-4QdQN6T3JXjhABjAs8rddxnc072jUvjq5FtoZm2ohHFITdOucK2+ZyvFb4BghzdjHoN06715Ld/TUzag4IBGXw==
+fusion-core@0.0.0-canary.fd5a750.0:
+  version "0.0.0-canary.fd5a750.0"
+  resolved "https://unpm.uberinternal.com/fusion-core/-/fusion-core-0.0.0-canary.fd5a750.0.tgz#0ac236b322127c740bcaaf4c1ae069f12a1894fc"
+  integrity sha512-6Cdb0YelOjzvyPQlDB9gM4k0sQjE1Q0nFwd9zy+OqH9nbTklQGd9pIe9cn7caSfRm+xBseMGU8gpkEoaEa9Ebw==
   dependencies:
     koa "^2.7.0"
     koa-compose "^4.1.0"

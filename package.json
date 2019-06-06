@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "main": "index.js",
   "dependencies": {
-    "fusion-cli": "2.0.2",
-    "fusion-core": "^2.0.0",
+    "fusion-cli": "0.0.0-canary.fd5a750.0",
+    "fusion-core": "0.0.0-canary.fd5a750.0",
     "fusion-plugin-react-helmet-async": "^2.0.0",
     "fusion-plugin-react-router": "^2.0.0",
     "fusion-plugin-styletron-react": "^3.0.0",
@@ -21,9 +21,9 @@
     "dev": "fusion dev",
     "lint": "eslint .",
     "test": "fusion test",
-    "build": "fusion build --serverless",
-    "build-production": "fusion build --production --serverless",
-    "now-build": "fusion build --production --serverless",
+    "build": "fusion build --experimentalServerless",
+    "build-production": "fusion build --production --experimentalServerless",
+    "now-build": "fusion build --production --experimentalServerless",
     "start": "fusion start"
   },
   "devDependencies": {
