@@ -2,11 +2,12 @@
   "version": 2,
   "builds": [
     {
+      "src": "src/main.js",
       "use": "ganemone/now-fusion",
       "config": {
         "maxLambdaSize": "50mb"
       }
     }
   ],
-  "routes": [{ "src": "/*", "dest": "index.js" }]
+  "routes": [{ "src": "/*", "dest": "src/main.js" }]
 }
