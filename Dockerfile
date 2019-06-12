@@ -9,8 +9,8 @@ COPY package.json yarn.lock ./
 RUN yarn install --frozen-lockfile
 
 # Bundle app source
-COPY . .
 RUN yarn build-production
+COPY . .
 
 ENV PORT_HTTP=${PORT}
 
