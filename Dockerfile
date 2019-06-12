@@ -16,4 +16,4 @@ RUN yarn build-production
 
 ENV PORT_HTTP=${PORT}
 
-CMD yarn start
+CMD yarn start --port=${PORT}
