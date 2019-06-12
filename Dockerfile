@@ -12,4 +12,6 @@ RUN yarn install --frozen-lockfile
 COPY . .
 RUN yarn build-production
 
+ENV PORT_HTTP=${PORT}
+
 CMD yarn start
