@@ -23,7 +23,6 @@
     "test": "fusion test",
     "build": "fusion build --experimentalServerless",
     "build-production": "fusion build --production --experimentalServerless",
-    "now-build": "fusion build --production --experimentalServerless",
     "start": "fusion start"
   },
   "devDependencies": {
