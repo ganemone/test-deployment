@@ -21,8 +21,8 @@
     "dev": "fusion dev",
     "lint": "eslint .",
     "test": "fusion test",
-    "build": "fusion build --experimentalServerless",
-    "build-production": "fusion build --production --experimentalServerless",
+    "build": "fusion build",
+    "build-production": "fusion build --production",
     "start": "fusion start"
   },
   "devDependencies": {
