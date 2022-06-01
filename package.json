@@ -14,7 +14,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "sharp": "^0.22.1",
+    "sharp": "^0.30.5",
     "styletron-react": "^4.4.6"
   },
   "scripts": {
